@@ -20,17 +20,6 @@ always@(posedge clk) begin
 	else if(write_enable==1'b0) begin
 	
 		data_out_a<=mem[add_a];
-	
-	
 	end
-
-	
-
-
-
-
 end
-
-
-
 endmodule
